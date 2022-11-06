@@ -1,0 +1,60 @@
+Task 3: Write an API that fetches the list of all books (only list of books names)
+Get: http://localhost:22424/books
+
+
+
+Task 4: Write an endpoint to add a new user to the users List
+Post: http://localhost:22424/users/addusertolist
+
+
+
+Task 5: Write an API that fetches a detail of a book. (Fetch book by name). This should 
+also indicate weather this book is available or already issues by a user.
+Get: http://localhost:22424/books/getbook/Crime and Punishment
+
+
+
+Task 6: Write an API that fetches a detail of a user. This should bring the books issued 
+by that user
+Get: http://localhost:22424/users/getuser/usr17  OR http://localhost:22424/users/getuser/noman ali
+
+
+
+Task 7: Write an endpoint to add a new book to the repository
+Post: http://localhost:22424/books/addbook
+
+
+
+Task 8: Write an endpoint to add a new user to the system.
+Post: http://localhost:22424/users/addusertosystem
+
+
+
+Task 9: Another endpoint is required to update the book record. (Book can be identified 
+by its name)
+Put: http://localhost:22424/books/updatebook/the idiot
+
+
+
+Task 10: Write an endpoint is required to update the user record
+Put: http://localhost:22424/users/updateuser/usr11 OR http://localhost:22424/users/updateuser/noman ali
+
+
+
+Task 11: If a user issues a new book, we need to add it to the bookIssuedList.
+Put: http://localhost:22424/users/issuebook/usman ali-the idiot OR http://localhost:22424/users/issuebook/usr12-the idiot
+
+
+
+Task 12: Finally write endpoint to remove a book from the repository by its name
+Delete: http://localhost:22424/books/removebook/Things Fall Apart
+
+
+
+Task 13: Write an API that remove the user from the system
+Delete: http://localhost:22424/users/removeuser/usr17 OR http://localhost:22424/users/removeuser/noman ali
+
+
+
+Task 14: Write an API that remove the book from the bookIssuedList
+Delete: http://localhost:22424/books/returnbook/bk13
