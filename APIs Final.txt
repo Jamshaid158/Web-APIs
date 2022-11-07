@@ -1,0 +1,65 @@
+Task 3: Write an API that fetches the list of all books (only list of books names)
+Get: https://localhost:44385/LibrarySystem/books
+
+
+Task 4: Write an endpoint to add a new user to the users List
+Post: https://localhost:44385/LibrarySystem/users/addusertolist
+
+
+
+Task 5: Write an API that fetches a detail of a book. (Fetch book by name). This should also indicate weather this book 
+is available or already issues by a user.
+Get: https://localhost:44385/LibrarySystem/books/getbook/the idiot
+
+
+
+Task 6: Write an API that fetches a detail of a user. This should bring the books issued by that user
+Get: https://localhost:44385/LibrarySystem/users/getuser/usr17  
+     OR 
+     https://localhost:44385/LibrarySystem/users/getuser/noman ali
+
+
+
+Task 7: Write an endpoint to add a new book to the repository
+Post: https://localhost:44385/LibrarySystem/books/addbook
+
+
+
+Task 8: Write an endpoint to add a new user to the system.
+Post: https://localhost:44385/LibrarySystem/users/addusertosystem
+
+
+
+Task 9: Another endpoint is required to update the book record. (Book can be identified by its name)
+Put: https://localhost:44385/LibrarySystem/books/updatebook/the idiot
+
+
+
+Task 10: Write an endpoint is required to update the user record
+Put: https://localhost:44385/LibrarySystem/users/updateuser/usr11 
+     OR 
+     https://localhost:44385/LibrarySystem/users/updateuser/noman ali
+
+
+
+Task 11: If a user issues a new book, we need to add it to the bookIssuedList.
+Put: https://localhost:44385/LibrarySystem/users/issuebook/usman ali-the idiot 
+     OR 
+     https://localhost:44385/LibrarySystem/users/issuebook/usr12-the idiot
+
+
+
+Task 12: Finally write endpoint to remove a book from the repository by its name
+Delete: https://localhost:44385/LibrarySystem/books/removebook/Things Fall Apart
+
+
+
+Task 13: Write an API that remove the user from the system
+Delete: https://localhost:44385/LibrarySystem/users/removeuser/usr17 
+	OR 
+	https://localhost:44385/LibrarySystem/users/removeuser/noman ali
+
+
+
+Task 14: Write an API that remove the book from the bookIssuedList
+Delete: https://localhost:44385/LibrarySystem/books/returnbook/bk13
